@@ -220,7 +220,7 @@ variable "firestore_stripe_webhook_events_collection" {
 
 
 variable "billing_api_stripe_secret_key_secret_id" {
-  description = "Existing Secret Manager secret ID containing the Stripe secret API key. The value is never managed by Terraform."
+  description = "Existing Secret manager secret ID containing the Stripe secret API key. The value is never managed by Terraform."
   type        = string
   default     = "stripe-secret-key"
 
